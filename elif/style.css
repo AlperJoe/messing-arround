@@ -1,0 +1,63 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image:url('./images/star1.jpeg'); background-repeat:repeat;
+    background-size: cover;
+    padding: 5;
+    margin-left: 35px;
+}
+
+.container{
+    height: 800px;
+    width: 1200px;
+    display: grid;
+
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.block{
+    height: 100px;
+    width: 220px;
+}
+.button:active,
+.active{
+    visibility: hidden;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px
+}
+
+#row2_1,#row2_2,#row2_3,#row2_4,#row2_5,#row2_6{
+    background-image: url("./images/100.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row3_1,#row3_2,#row3_3,#row3_4,#row3_5,#row3_6{
+    background-image: url("./images/200.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row4_1,#row4_2,#row4_3,#row4_4,#row4_5,#row4_6{
+    background-image: url("./images/300.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row5_1,#row5_2,#row5_3,#row5_4,#row5_5,#row5_6{
+    background-image: url("./images/400.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row6_1,#row6_2,#row6_3,#row6_4,#row6_5,#row6_6{
+    background-image: url("./images/500.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#row7_1,#row7_2,#row7_3,#row7_4,#row7_5,#row7_6{
+    background-image: url("./images/600.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
